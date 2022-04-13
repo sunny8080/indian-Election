@@ -19,10 +19,10 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    /* grid-template-columns: auto auto; */
+    grid-template-columns: repeat(2, 50%); /* grid-template-columns: 50% 50%; */
     gap: 2px;
     background-color: #2196f3;
-    /* padding: 10px; */
 }
 
 .grid-container > div {
@@ -30,12 +30,10 @@
     color: bisque;
     font-size: 30px;
     text-align: center;
-    /* padding: 20px 0;  */
 }
 
 .sumit {
-    /* width: 50px; */
-    width: 18rem;
+    width: 265px;
 }
 
 /* div .item1{
@@ -45,10 +43,9 @@
 div .item2{
     background-color: #006778;
     padding: 25px 0;
-    
 }
 
-#desc{
+#description{
     background-color: black;
     color: white;
     padding: 25px 0;
@@ -56,8 +53,8 @@ div .item2{
 }
 
 #footer{
-    margin-top: 35px;
-    margin-bottom: 10px;
+    background-color: cyan;
+    padding: 35px 0 10px 0;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
